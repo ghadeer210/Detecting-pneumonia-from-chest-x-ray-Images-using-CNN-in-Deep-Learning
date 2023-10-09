@@ -1,22 +1,18 @@
 # General libraries
 import os
 import numpy as np
-#import pandas as pd 
+import pandas as pd 
 import random
 import cv2
 import matplotlib.pyplot as plt
 # Deep learning libraries
 import tensorflow as tf
 from keras.models import Model, Sequential, load_model
-#from tensorflow.keras.models import Model
 from keras.layers import Input, Dense, Flatten, Dropout, BatchNormalization
-#from tensorflow.keras.layers import Dense, Flatten
 from keras.layers import Conv2D, SeparableConv2D, MaxPool2D, LeakyReLU, Activation
 from keras.optimizers import Adam
-#from tensorflow.keras.optimizers import Adam
 from keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-#from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping, CSVLogger, TensorBoard
 import tensorflow as tf
 from keras.utils.vis_utils import plot_model
